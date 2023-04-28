@@ -1,0 +1,13 @@
+Customer login module:
+( Create proper project structure like entity, service, dao class etc)
+
+Here customer can register in the application using name, mobile, email address and password.
+ Customer can be inserted as an object inside DB table.
+
+Create a method which can take username and password as parameter which customer can insert from console and
+if the username and password is equal to customer entered email address and password stored inside db then
+ show success message otherwise login failure
+
+Creat a method which can accept name and mobile as parameter which values we can pass from console and
+it will update the customer name in db. But for fetching customer details we need to pass mobile as unique
+identifier for customer object.
